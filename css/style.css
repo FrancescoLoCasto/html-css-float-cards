@@ -1,0 +1,52 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1203px;
+    height: 708px;
+    margin: 5rem auto;
+}
+
+h1.title{
+    color: #e5316f;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+p.lorem{
+    color: black;
+    
+}
+
+.box{
+    height: 100px;  
+    width: 300px;
+    margin: 5rem auto;
+    background-color: black;
+    display: inline-block;
+}
+
+.female-img{
+    height: 100px;
+    width: auto;
+}
+
+.card-text{
+    color: white
+}
+
+article.box{
+    
+}
