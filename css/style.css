@@ -33,7 +33,7 @@ p.lorem{
 .box{
     height: 100px;  
     width: 300px;
-    margin: 5rem auto;
+    margin: 5rem 0 0 5rem;
     background-color: black;
     display: inline-block;
 }
@@ -48,5 +48,7 @@ p.lorem{
 }
 
 article.box{
-    
+    float: left;
 }
+
+
