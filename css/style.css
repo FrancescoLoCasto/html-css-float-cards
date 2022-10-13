@@ -42,17 +42,41 @@ h1.title{
     color: black;
 }
 
+
 .female-img{
     height: 100px;
     width: auto;
+    float: left;
+    padding-right: .5rem;
 }
 
-.card-text{
-    color: white
+
+.text{
+    padding-top: .7rem;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+
+}
+
+p.white-text{
+    font-size: smaller;
+    color: white;  
+    
+}
+
+p{
+    color: white;
+    padding-top: .5rem;
 }
 
 article.box{
     float: left;
 }
 
+p.email{
+    padding-top: .5rem;
+    font-size: 1.1rem;
+
+    color: #00ccf2;
+}
 
